@@ -3722,9 +3722,49 @@
     "name": "solc",
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {
+        "0x4844e4151be144cd1ee02f8e35b3655dd5d231c23b6c20875446a882fe5a8b4a": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "_id",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "_landOwner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_ownerName",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_city",
+              "type": "string"
+            }
+          ],
+          "name": "registerLandEvent",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xEF854da39DD2050Cf59ea29f87359ACD24c9e5D5",
+      "transactionHash": "0x033525211f3dfdd11e21e0f2b3f80afd590409af8f163806eb7e808de9cc4bab"
+    }
+  },
   "schemaVersion": "3.2.3",
-  "updatedAt": "2020-08-24T15:50:25.674Z",
+  "updatedAt": "2020-08-24T16:01:02.657Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },
